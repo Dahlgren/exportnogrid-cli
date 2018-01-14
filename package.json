@@ -1,0 +1,21 @@
+{
+  "name": "exportnogrid-cli",
+  "version": "1.0.0",
+  "description": "Make autotest files for Arma 3",
+  "scripts": {
+    "convert": "node convert.js",
+    "export": "node export.js",
+    "lint": "standard --verbose",
+    "trim": "node trim.js"
+  },
+  "author": "Björn Dahlgren",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "request": "^2.83.0",
+    "spawn-as-admin": "^0.1.3"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
