@@ -15,9 +15,12 @@ fs.readdirSync(worldsPath)
   spawn(magickPath, [
     'convert',
     pngPath,
-    '-bordercolor black',
-    '-border 1x1',
-    '-fuzz 80%',
+    '-bordercolor',
+    'black',
+    '-border',
+    '1x1',
+    '-fuzz',
+    '80%',
     '-trim',
     '+repage',
     trimmedPngPath
