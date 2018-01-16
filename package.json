@@ -11,6 +11,7 @@
   "author": "Björn Dahlgren",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.6.0",
     "fs-extra": "^5.0.0",
     "request": "^2.83.0",
     "spawn-as-admin": "^0.1.3"
